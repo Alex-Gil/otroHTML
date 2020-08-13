@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>C Sharp</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <h1 id="arriba" class="alineacionCentro">C Sharp</h1>
+    <hr/>
+    <p class="alineacionCentro">
+        "C#" (pronunciado si sharp en inglés) es un lenguaje de programación multiparadigma desarrollado y estandarizado por la empresa Microsoft como parte de su plataforma .NET, que después fue aprobado como un estándar por la ECMA (ECMA-334) e ISO (ISO/IEC </p>
+        <p>
+        23270). C# es uno de los lenguajes de programación diseñados para la infraestructura de lenguaje común. Su sintaxis básica deriva de C/C++ y utiliza el modelo de objetos de la plataforma .NET, similar al de Java, aunque incluye mejoras derivadas
+        de otros lenguajes. El nombre C Sharp fue inspirado por el signo ♯, el cual se lee como sharp en inglés para notación musical. Es un juego de palabras, pues '"C#" significa, musicalmente hablando, "do sostenido", donde el símbolo # indica que
+        una nota (en este caso do, representada por C) debe ser un semitono más alta. Esto es una metáfora de la superioridad de C# sobre su antecesor C++ y a su vez hace alusión a la misma metáfora que se ideó para dar nombre a C++.1​ Además, el símbolo
+        # puede ser imaginado como la unión de cuatro símbolos +, continuando así con el sentido de progresión de los lenguajes C. Aunque C# forma parte de la plataforma .NET, esta es una API, mientras que C# es un lenguaje de programación independiente
+        diseñado para generar programas sobre dicha plataforma. Ya existe un compilador implementado que provee el marco Mono - DotGNU, el cual genera programas para distintas plataformas como Windows Microsoft, Unix, Android, iOS, Windows Phone, Mac
+        OS y GNU/Linux.
+    </p>
+    <img src="2img.png">
+    <nav>
+        <h2 class="alineacionCentro">Indice</h2>
+    <p class="colorsubl">
+        1<a href="#historia">Historia</a><br /> 
+        2<a href="#tipos">Tipos de Datos</a><br /> 
+        3<a href="#literales">Literales</a><br /> 
+        4<a href="#variables">Variables</a><br /> 
+        5<a href="constantes">Constantes</a><br />
+    </p>
+    </nav>
+    <h2 id="historia">Historia
+    <a href="#arriba" class="arriba">«</a></h2>
+    </hr>
+    <p class="alineacionCentro">
+        Durante el desarrollo de la plataforma .NET, las bibliotecas de clases fueron escritas originalmente usando un sistema de código gestionado llamado Simple Managed C (SMC). En abril de 1999, Anders Hejlsberg formó un equipo con la misión de desarrollar </p>
+        <p>
+        un nuevo lenguaje orientado a objetos. Este nombre tuvo que ser cambiado debido a problemas de marca, pasando a llamarse C#.2​ La biblioteca de clases de la plataforma .NET fue migrada entonces al nuevo lenguaje, este después fue modificado por
+        Joseth M. Hejlsberg lideró el proyecto de desarrollo de C#. Anteriormente, ya había participado en el desarrollo de otros lenguajes como Turbo Pascal, Delphi y J++.
+    </p>
+    <h2 id="tipos">Tipos de datos <a href="#arriba"class="arriba">«</a></h2>
+    <hr/>
+    <p class="alineacionCentro">
+        C# contiene veinte categorías generales de tipos de datos integrados: tipos de valor y tipos de referencia. El término tipo de valor indica que esos tipos contienen directamente sus valores. Tipos para definir números enteros:
+    </p>
+    <p>
+        Los tipos de coma flotante pueden representar números con componentes fraccionales. Existen dos clases de tipos de coma flotante: float y double. El tipo double es el más utilizado porque muchas funciones matemáticas de la biblioteca de clases de C# usan
+        valores double. Quizá, el tipo de coma flotante más interesante de C# es decimal, dirigido al uso de cálculos monetarios. La aritmética de coma flotante normal está sujeta a una variedad de errores de redondeo cuando se aplica a valores decimales.
+        El tipo decimal elimina estos errores y puede representar hasta 28 lugares decimales.
+    </p>
+    <p>Los tipos de coma flotante pueden representar números con componentes fraccionales. Existen dos clases de tipos de coma flotante: float y double. El tipo double es el más utilizado porque muchas funciones matemáticas de la biblioteca de clases de
+        C# usan valores double. Quizá, el tipo de coma flotante más interesante de C# es decimal, dirigido al uso de cálculos monetarios. La aritmética de coma flotante normal está sujeta a una variedad de errores de redondeo cuando se aplica a valores
+        decimales. El tipo decimal elimina estos errores y puede representar hasta 28 lugares decimales.</p>
+
+    <h2 id="literales">Literales <a href="#arriba" class="arriba">«</a></h2>
+    <hr/>
+    <p class="alineacionCentro">En ocasiones, resulta más sencillo usar un sistema numérico en base 16 en lugar de 10, para tal caso C# permite especificar números enteros en formato hexadecimal, y se define anteponiendo 0x, por ejemplo: 0xFF, que equivale a 255 en decimal. C# tiene
+        caracteres denominados secuencias de escape para facilitar la escritura con el teclado de símbolos que carecen de representación visual. C#, al igual que C++, define un tipo de cadena de caracteres. Dentro de la cadena de caracteres se pueden
+        usar secuencias de escape. Una cadena de caracteres puede iniciarse con el símbolo @ seguido por una cadena entre comillas ("), en tal caso, las secuencias de escape no tienen efecto, y además la cadena puede ocupar dos o más líneas.
+    </p>
+    <div class="alineacionCentro">
+        <img src="1img.jpg">
+    </div>
+    <h2 id="variables">Variables <a href="#arriba"class="arriba">«</a></h2>
+    <hr/>
+    <p>
+        Las variables son identificadores asociados a valores. Se declaran indicando el tipo de dato que almacenará y su identificador. Un identificador puede: empezar por "_". contener caracteres Unicode en mayúsculas y minúsculas (sensible a mayúsculas y minúsculas).
+        Un identificador no puede: empezar por un número. empezar por un símbolo, ni aunque sea una palabra clave. contener más de 511 caracteres. Declarar una variable: int miNumero; // Declaramos la variable, pero no la inicializamos con ningún valor.
+        Para asignar un valor a una variable, se indica el identificador de la misma, seguido del símbolo igual (=) y el valor que queremos que almacene: miNumero = 5; // Asignamos el valor '5' a la variable creada. Se puede declarar y asignar un valor
+        al mismo tiempo: int miNumero = 5; // Declaramos la variable, y asignamos el valor '5'. También puedes declarar una variable sin especificar el tipo de dato, utilizando el mecanismo de inferencia mediante la palabra clave var donde el compilador
+        determina el tipo de dato que se le asignará a la variable y sólo es permitida para variables locales, no para parámetros o datos miembro. var cadena = "Esto es un string"; var numero1 = 5; var numero2 = 4.5; var numero3 = 4.5D; var objeto = new
+        Object(); var resultado = Math.Pow(5, 2); Las conversiones de tipo de variables en C# se representan en la siguiente tabla en donde la fila es el origen y la columna el destino.
+    </p>
+    <hr/>
+    <h2>Enlaces Externos</h2> <a href="#arriba">Arriba</a>
+    <a href="https://docs.microsoft.com/es-es/dotnet/csharp/programming-guide/">Guia de Programacion</a><br/>
+    <a href="https://visualstudio.microsoft.com/es/">Centro de Desarrollo Visual Studio</a>
+    <hr/>
+    <p>
+        <a href="mailto:gamerdy22da@gmail.com">Contactenos</a>
+    </p>
+    <h2>Introduce tu sugerencia</h2>
+    <input type="text" required placeholder="aquí">
+</body>
+
+
+</html>

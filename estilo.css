@@ -1,0 +1,30 @@
+#arriba{
+    color: lightblue;
+    background-color: lightcyan;
+}
+.alineacionCentro{
+    text-align: center;
+}
+.subrayado{
+    text-decoration: underline;
+}
+nav{
+    text-align: none;
+    background-color: none ;
+}
+a{
+ color: cadetblue;
+ text-decoration: darkturquoise;
+}
+a:hover{
+    color: black;
+}
+.arriba{
+    color: crimson;
+}
+.colorsubl{
+    color: gray;
+}
+input:focus{
+    background-color: lightgoldenrodyellow;
+}
